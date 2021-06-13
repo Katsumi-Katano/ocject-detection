@@ -11,7 +11,7 @@ import time
 
 import json
 
-with open('C:\\Users\\katoh\\New_dir\\python_web\\secret.json') as f:
+with open('.\secret.json') as f:
     secret = json.load(f)
 
 KEY = secret['KEY']
